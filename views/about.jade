@@ -1,6 +1,12 @@
 extends layout
 
 block content
-	div.container
+	.container
 		h1 About
 		p About Info
+
+	script.
+		var el = document.getElementById('menu-about');
+		if(el) {
+			el.className += el.className ? ' active' : 'active';
+		}

@@ -1,6 +1,12 @@
 extends layout
 
 block content
-	div.container
+	.container
 		h1 App Name
 		p Hello World
+
+	script.
+		var el = document.getElementById('menu-home');
+		if(el) {
+			el.className += el.className ? ' active' : 'active';
+		}

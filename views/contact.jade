@@ -1,6 +1,12 @@
 extends layout
 
 block content
-	div.container
+	.container
 		h1 Contact
 		p Contact Info
+
+	script.
+		var el = document.getElementById('menu-contact');
+		if(el) {
+			el.className += el.className ? ' active' : 'active';
+		}
