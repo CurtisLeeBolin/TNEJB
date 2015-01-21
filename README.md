@@ -5,7 +5,7 @@ Template for a Node.js web app with Express, Jade, and Bootstrap
 Unless otherwise noted all code here is Public Domain (Unlicense).
 
 ##Use
-You will have to have Node.js installed.
+[Node.js](nodejs.org) will need to be installed.
 
 Next use git to clone this repository.
 ```sh
